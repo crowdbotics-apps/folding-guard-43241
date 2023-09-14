@@ -1,6 +1,6 @@
 import axios from "axios"
 const yellowfogAPI = axios.create({
-  baseURL: "https://yellow-fog-43241.botics.co",
+  baseURL: "https://folding-guard-43241.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_docs_schema_retrieve(payload) {
